@@ -1,4 +1,4 @@
-# Frostal.us
+# Frostal.us [![.github/workflows/deploy.yml](https://github.com/Frostal-us/Frostal/actions/workflows/deploy.yml/badge.svg)](https://github.com/Frostal-us/Frostal/actions/workflows/deploy.yml)
 
 Live, social photo sharing.
 
