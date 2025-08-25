@@ -1,12 +1,26 @@
-## Hi there 👋
+# Frostal.us
 
-<!--
+Live, social photo sharing.
 
-**Here are some ideas to get you started:**
+- Website: https://Frostal.us
+- Topics: live • media • share • social
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Project: Frostal
+
+Dev quickstart (Bun v1.2.14):
+```bash
+bun install
+bun run index.ts
+```
+
+### Photos
+- Public files: public/uploads/<username>/photos
+- Metadata: MongoDB collection photos
+- No meta.json used
+
+API endpoints:
+- GET /api/users/:username/photos — list public photos (respects private profiles)
+- GET /api/users/me/photos — list your photos
+- POST /api/users/me/photos — upload a photo
+- POST /api/users/me/photos/title — set/clear a photo title
+- DELETE /api/users/me/photos — delete a photo by name
