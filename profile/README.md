@@ -1,4 +1,4 @@
-# Frostal.us [![.github/workflows/deploy.yml](https://github.com/Frostal-us/Frostal/actions/workflows/deploy.yml/badge.svg)](https://github.com/Frostal-us/Frostal/actions/workflows/deploy.yml)
+# Frostal.us ![GitHub](https://img.shields.io/badge/GitHub-xeoxaz-blue?logo=github&logoColor=white)
 
 Live, social photo sharing.
 
@@ -6,12 +6,6 @@ Live, social photo sharing.
 - Topics: live • media • share • social
 
 ## Project: Frostal
-
-Dev quickstart (Bun v1.2.14):
-```bash
-bun install
-bun run index.ts
-```
 
 ### Photos
 - Public files: public/uploads/<username>/photos
